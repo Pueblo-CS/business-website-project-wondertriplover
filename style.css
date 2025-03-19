@@ -7,20 +7,25 @@ body {
     margin: 0px;
 }
 
+#header, .nav > a, #hero, #cta {
+    color:white;
+}
+
 #header {
     background-color: #373F51;
-    color: white;
     height: 60px;
 }
 
-.nav > a {
-    color: white;
+a {
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #hero {
     font-size: 22px;
-    color: white;
 }
 
 #hero > h1 {
@@ -29,6 +34,19 @@ body {
 
 #cta {
     background-color: #ee3652;
-    color: white;
-    text-decoration: none;
 }
+
+#cta:hover {
+    background-color:white;
+    color: #ee3652;
+}
+
+#products {
+    background-color:#ee3652
+}
+
+.card {
+    background-color: white;
+    width: fit-content;
+}
+
